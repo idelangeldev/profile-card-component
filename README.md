@@ -27,7 +27,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Fronend Mentor Solution](https://www.frontendmentor.io/solutions/profile-card-component-solution-using-flexbox-YbzQVPcGC)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/profile-card-component-solution-using-flexbox-YbzQVPcGC)
 - Live Site URL: [My Netlify site](https://confident-bose-f1e505.netlify.app/)
 
 ## My process
