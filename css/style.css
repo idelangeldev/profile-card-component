@@ -1,0 +1,147 @@
+:root {
+  --bg-clr: hsl(185, 75%, 39%);
+
+  --border-line-clr: hsl(228, 9%, 92%);
+
+  --bold-txt: hsl(229, 23%, 23%);
+
+  --grey-txt: hsl(227, 10%, 46%);
+
+  --box-shadow: rgba(0, 0, 0, 0.05);
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+.bold-txt {
+  color: var(--bold-txt);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.grey-txt {
+  color: var(--grey-txt);
+}
+
+.container {
+  background-color: var(--bg-clr);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat no-repeat;
+  background-position: right 51vw bottom 40vh, left 48vw top 52vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100vw - (100vw - 100%));
+  height: 100vh;
+}
+
+.top-oval {
+  position: fixed;
+  left: -20%;
+  top: -50%;
+}
+
+.bottom-oval {
+  position: absolute;
+  right: -20%;
+  bottom: -50%;
+}
+
+.card {
+  background-color: #fff;
+  max-width: 350px;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0 30px 10px var(--box-shadow);
+}
+
+img.header-bg {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+img.card-img {
+  position: absolute;
+  left: 50%;
+  top: 37%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.personal-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  width: 135px;
+}
+
+.personal-info p.grey-txt {
+  font-size: 18px;
+}
+
+.city {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 8px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--border-line-clr);
+  width: 100%;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 249px;
+  padding-bottom: 22px;
+  padding-top: 20px;
+}
+
+.social p.bold-txt {
+  padding-bottom: 7px;
+}
+
+.social p.grey-txt {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  padding-bottom: 5px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* @media (max-width: 768px) {
+  
+} */
